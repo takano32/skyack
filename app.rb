@@ -1,5 +1,9 @@
+
+require 'slackbotsy'
+require 'sinatra'
+
 config = {
-  'team'           => 'skyack'
+  'team'           => 'skyack',
   'channel'        => '#general',
   'name'           => 'skyack',
   'incoming_token' => 'secret',
