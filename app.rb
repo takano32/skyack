@@ -1,6 +1,7 @@
 
 require 'slackbotsy'
 require 'sinatra'
+require 'open-uri'
 
 config = {
   'team'           => 'skyack',
